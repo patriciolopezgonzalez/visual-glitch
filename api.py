@@ -2,7 +2,7 @@ import os
 from flask import Flask, render_template
 
 templateDirectory = os.path.dirname(os.path.abspath(__file__))
-staticDirectory = os.path.dirname(os.path.abspath(__file__))
+staticDirectory = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'static')
 
 app = Flask(
     __name__,

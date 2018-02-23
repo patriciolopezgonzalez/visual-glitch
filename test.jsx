@@ -1,10 +1,9 @@
-import '../node_modules/react-dates/lib/css/_datepicker.css'
-import '../node_modules/react-dates/initialize'
+import './node_modules/react-dates/lib/css/_datepicker.css'
+import './node_modules/react-dates/initialize'
 
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-import {DateRangePicker, SingleDatePicker, DayPickerRangeController} from 'react-dates'
 import { DateRangePicker } from 'react-dates'
 
 export default class Test extends React.Component {
@@ -27,3 +26,5 @@ export default class Test extends React.Component {
         )
     }
 }
+
+ReactDOM.render(<Test />, document.getElementById('app'))
