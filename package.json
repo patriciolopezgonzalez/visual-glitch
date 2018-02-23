@@ -1,0 +1,38 @@
+{
+  "name": "test-airbnb",
+  "version": "0.1",
+  "description": "Testing airbnb widget",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "node_modules/.bin/webpack --watch",
+    "build": "node_modules/.bin/webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.xcade.net/avature/erised.git"
+  },
+  "keywords": [
+    "flask",
+    "react"
+  ],
+  "author": "patriciolopezgonzalez",
+  "license": "MIT",
+  "dependencies": {
+    "file-loader": "^1.1.5",
+    "react": "^15.6.2",
+    "react-addons-shallow-compare": "^15.6.2",
+    "react-dates": "^16.2.0",
+    "react-dom": "^15.6.2",
+    "url-loader": "^0.6.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "css-loader": "^0.28.9",
+    "style-loader": "^0.17.0",
+    "webpack": "^2.5.1"
+  }
+}
